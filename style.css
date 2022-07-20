@@ -18,12 +18,11 @@ body{
 
 }
 
-div#container{
+#container{
 
     background-color: lightgray;
     width: 604px;
     height: fit-content;
-    border-radius: 10px;
     
     flex-wrap: wrap;
 
@@ -47,6 +46,13 @@ div#container{
 
 }
 
+#caixa:hover{
+
+    background-color: white;
+
+}
+
+
 #caixa:nth-child(7),
 #caixa:nth-child(8),
 #caixa:nth-child(9){
@@ -63,11 +69,6 @@ div#container{
 
 }
 
-#caixa:hover{
-
-    background-color: white;
-
-}
 
 p{
     
